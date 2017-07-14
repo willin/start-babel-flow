@@ -1,0 +1,20 @@
+{
+  "name": "start-babel-flow",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "prepublish": "yarn run build"
+  },
+  "repository": "https://github.com/willin/start-babel-flow.git",
+  "author": "willin <willin@willin.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.2.0",
+    "eslint-config-dwing": "^1.1.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "flow-bin": "^0.50.0"
+  }
+}
